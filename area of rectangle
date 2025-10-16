@@ -1,0 +1,32 @@
+package datatypes;
+
+public class Soft {
+	public static void main(String[] args) {
+		int a = 24;
+		System.out.print((a%2==0)?"even" : "odd");
+		
+	}
+
+}  
+
+2 qustion
+package rectangle;
+public class Area {
+	public static void main(String[] args) {
+		int lenght = 10;
+		int width = 5;
+		int area = lenght * width;
+		System.out.println("Area of rectangle: " + area);
+	}
+}
+3 question
+package relational;
+public class operators {
+	public Static void main(String[] args) {
+		int x = 10;
+		int y = 5;
+		System.out.println("x > y: " + (x > y));  //true
+		System.out.println("x == y: " + (x == y)); //false
+		System.out.println("x > y && x == 10: " +(x > y && x ==10)); //true
+		}		
+	}
